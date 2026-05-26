@@ -1,0 +1,12 @@
+// src/routes/login.tsx
+
+import { createFileRoute } from '@tanstack/react-router';
+import AuthForm from '../components/AuthForm';
+
+export const Route = createFileRoute('/login')({
+  component: LoginComponent,
+});
+
+function LoginComponent() {
+  return <AuthForm mode="login" />;
+}
