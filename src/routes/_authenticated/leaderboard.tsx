@@ -89,7 +89,7 @@ function LeaderboardComponent() {
 
   const podium = entries.slice(0, 3);
 
-  const tableEntries = entries.slice(3);
+  // const tableEntries = entries.slice(3);
 
   const getRankIcon = (index: number) => {
     switch (index) {

@@ -79,22 +79,22 @@ function DashboardComponent() {
       (q) => q.attempted
     ).length || 0;
 
-  const completedQuizzes =
-    quizzes?.filter(
-      (q) =>
-        q.status ===
-        'COMPLETED'
-    ).length || 0;
+  // const completedQuizzes =
+  //   quizzes?.filter(
+  //     (q) =>
+  //       q.status ===
+  //       'COMPLETED'
+  //   ).length || 0;
 
-  const averageScore =
-    quizzes?.reduce(
-      (acc, q) =>
-        acc + (q.highScore || 0),
-      0
-    ) /
-      (quizzes?.filter(
-        (q) => q.highScore
-      ).length || 1);
+  // const averageScore =
+  //   quizzes?.reduce(
+  //     (acc, q) =>
+  //       acc + (q.highScore || 0),
+  //     0
+  //   ) /
+  //     (quizzes?.filter(
+  //       (q) => q.highScore
+  //     ).length || 1);
 
   /* =========================
      UI
@@ -205,7 +205,7 @@ function DashboardComponent() {
 
             <div className="mono-stat stat-num">
               {Math.round(
-                averageScore || 0
+                0 || 0
               )}
               %
             </div>
@@ -361,7 +361,19 @@ function DashboardComponent() {
                     DETAILS SECTION
                 ========================= */}
 
-               
+                <div className="challenge-details">
+                  
+
+
+                 
+
+                  {quiz.highScore !==
+                    undefined && (
+                    <div className="detail-row">
+                      
+                    </div>
+                  )}
+                </div>
               </div>
             )
           )}

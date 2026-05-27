@@ -62,7 +62,7 @@ const NavBar: React.FC = () => {
         <div className="nav-actions">
           {user && (
             <div className="user-indicator mono-stat">
-              {user.username}
+              {user.name}
             </div>
           )}
           <button onClick={handleSignOut} className="btn-signout" title="Terminate Session">

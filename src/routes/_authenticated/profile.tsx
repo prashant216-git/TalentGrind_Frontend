@@ -14,7 +14,7 @@ import { apiFetch } from '../../lib/api';
 import {
   Github,
   Linkedin,
-  MapPin,
+ 
   Building,
   GraduationCap,
   Briefcase,

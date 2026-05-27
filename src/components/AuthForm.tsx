@@ -8,7 +8,7 @@ import {
   UserPlus,
   ShieldAlert,
   Trophy,
-  MapPin,
+  
   Building2,
   GraduationCap,
 } from 'lucide-react';
