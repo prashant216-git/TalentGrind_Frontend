@@ -51,8 +51,8 @@ export const clearToken = (): void => {
 ========================= */
 
 export const BASE_URL =
-  import.meta.env.VITE_API_BASE_URL ||
-  'http://localhost:8080';
+  'http://3.88.229.15:8080/' ;
+  // 'http://localhost:8080';
 
 /* =========================
    API FETCH
