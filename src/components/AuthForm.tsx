@@ -5,7 +5,7 @@ import { useAuth } from '../lib/auth';
 import { useNavigate } from '@tanstack/react-router';
 import {
   LogIn,
-  UserPlus,
+  
   ShieldAlert,
   Trophy,
   Terminal,
