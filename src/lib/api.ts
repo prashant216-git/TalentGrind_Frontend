@@ -51,7 +51,7 @@ export const clearToken = (): void => {
 ========================= */
 
 export const BASE_URL =
-  'http://3.88.229.15:8080/' ;
+  'http://3.88.229.15:8080' ;
   // 'http://localhost:8080';
 
 /* =========================
